@@ -20,7 +20,7 @@ Este repositório contém uma implementação básica de uma classe em JavaScrip
 const meuHeroi = new Hero('Aragorn', 35, 'guerreiro');
 meuHeroi.atacar(); // Saída: O guerreiro atacou usando espada
   guerreiro atacou usando espada
-
+````
 ## Como usar
 
 Clone este repositório:
