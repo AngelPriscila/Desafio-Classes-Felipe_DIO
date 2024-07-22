@@ -1,29 +1,32 @@
 # Desafio-Classes-Feipe_DIO
  Escrevendo as Classes de Um Jogo
 
-## Objetivo:
+# Hero Adventures
 
-Crie uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
+## Descrição
+Este repositório contém uma implementação básica de uma classe em JavaScript para representar um herói de uma aventura, com funcionalidades simples para atacar.
 
-- nome
-- idade
-- tipo (ex: guerreiro, mago, monge, ninja )
+## Funcionalidades
+- Representação de um herói com propriedades como nome, idade e tipo (guerreiro, mago, monge, ninja).
+- Método `atacar()` que permite ao herói realizar um ataque, exibindo a mensagem adequada conforme o tipo do herói:
+  - Mago: "O mago atacou usando magia."
+  - Guerreiro: "O guerreiro atacou usando espada."
+  - Monge: "O monge atacou usando artes marciais."
+  - Ninja: "O ninja atacou usando shuriken."
+  - Para outros tipos, exibe uma mensagem genérica.
 
-Além disso, deve ter um método chamado atacar que deve atender os seguientes requisitos:
-
-- exibir a mensagem: "o {tipo} atacou usando {ataque}")
-- aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
-- e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
-
-se mago -> no ataque exibir (usou magia)
-se guerreiro -> no ataque exibir (usou espada)
-se monge -> no ataque exibir (usou artes marciais)
-se ninja -> no ataque exibir (usou shuriken)
-
-## Saída
-
-Ao final deve se exibir uma mensagem:
-
-- "o {tipo} atacou usando {ataque}"
-  ex: mago atacou usando magia
+## Exemplo de Uso
+```javascript
+const meuHeroi = new Hero('Aragorn', 35, 'guerreiro');
+meuHeroi.atacar(); // Saída: O guerreiro atacou usando espada
   guerreiro atacou usando espada
+````
+## Como usar
+
+Clone este repositório:
+git clone https://github.com/caio-videmelo/Desafio-Classes-Felipe_DIO/
+
+Abra o arquivo hero.js e execute o código em uma IDE para ver a aplicação em ação.
+
+## Contribuição
+Contribuições são bem-vindas! Para sugestões, melhorias e correções de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
